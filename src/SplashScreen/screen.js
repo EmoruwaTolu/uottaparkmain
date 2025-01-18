@@ -23,11 +23,10 @@ function Screen() {
             <div className='search-location'>
                 <button className='screen-button-button'>Search Location</button>
             </div>
+        </div>
         <div className='get-started'>
             <Link to={'/home'}>Get Started</Link>
         </div>
-
-
     </div>
   );
 }
