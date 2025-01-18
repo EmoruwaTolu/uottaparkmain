@@ -13,46 +13,50 @@
     flex-direction: column;
     justify-content: space-between;
 }
-
-.right-side{
-    padding-top: 3vw;
+.right-side {
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: flex-start; /* Align items to the start of the column */
+    gap: 1.5rem; /* Add spacing between items */
 }
-
 .img-container{
     width: 100%;
     height: 70%;
     background-color: antiquewhite;
     border-radius: 16px;
 }
-
 .star-rating{
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
-
-.price-and-available{
+.price-and-available {
     display: flex;
+    flex-direction: column; /* Stack items vertically */
     width: 100%;
-    justify-content: space-between;
+}
+
+.price-and-available > div {
+    display: flex;
+    justify-content: space-between; /* Position label and value on the same row */
+    align-items: center; /* Vertically align text */
+    font-size: 1rem; /* Adjust font size for consistency */
+}
+
+.price-and-available > div > div {
+    margin-right: 10px; /* Add spacing between label and value */
 }
 
 .indoor-offcampus{
     display: flex;
-    background-color: #CCD5AE;
-    border-radius: 2px;
     width: 100%;
     justify-content: space-between;
 }
-
 .bookmark-button{
     padding: 3vw;
     border-radius: 3em;
-    background-color: #CCD5AE;
+    background-color: #ccd5ae;
     display: flex;
     justify-content: center;
     align-items: center;
