@@ -1,0 +1,76 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 1,
+          "name": "Parking Spot 1",
+          "type": "PAID",
+          "rate": "$4/hour",
+          "availability": "Available"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-75.697193, 45.421530]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 2,
+          "name": "Parking Spot 2",
+          "type": "PAID",
+          "rate": "$3/hour",
+          "availability": "Occupied"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-75.698820, 45.422210]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3,
+          "name": "Parking Spot 3",
+          "type": "FREE",
+          "rate": "N/A",
+          "availability": "Available"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-75.696100, 45.420870]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 4,
+          "name": "Parking Spot 4",
+          "type": "PAID",
+          "rate": "$2/hour",
+          "availability": "Occupied"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-75.695200, 45.421400]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 5,
+          "name": "Parking Spot 5",
+          "type": "PAID",
+          "rate": "$5/hour",
+          "availability": "Available"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-75.699000, 45.422900]
+        }
+      }
+    ]
+}
+  

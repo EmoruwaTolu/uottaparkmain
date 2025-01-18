@@ -1,6 +1,5 @@
 import Navbar from '../Navbar/navbar';
 import { Link } from "react-router-dom";
-import ParkingMap from '../MapToggle/map';
 import './home.css';
 import EarthIcon from './earth-outline.svg';
 
