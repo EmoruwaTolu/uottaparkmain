@@ -14,7 +14,7 @@ const INITIAL_VIEW_STATE = {
 };
 
 const MAPBOX_ACCESS_TOKEN = 'pk.eyJ1IjoiZW1vcnV3YXRvbHUiLCJhIjoiY202MmhpZGtpMTBuOTJqcHVubmdkMWVxeiJ9.eb16GNH7W3g5T4z-NbPekg';
-function ParkingMap() {
+function ParkingMap({ setSpot, spot }) {
 
   const [geojsonData, setGeojsonData] = useState(null);
   const [zoomLevel, setZoomLevel] = useState(13); // Default zoom level
@@ -75,7 +75,7 @@ function ParkingMap() {
             getColor: [255, 140, 0], // Orange color for icons
             onClick: (info) => {
               if (info.object) {
-                console.log(info.object.properties);
+                setSpot(info.object.properties);
               }
             },
             // Add a tooltip with the number of spaces
