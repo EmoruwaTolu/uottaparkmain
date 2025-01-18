@@ -21,7 +21,7 @@ function MapToggle({bookmarks, setBookmarks}) {
             <ParkingMap setSpot={setFilterInfo} spot={filterInfo}/>   
             <div className='map-filters'>
                 {filterInfo === null && <Filter />}
-                {filterInfo !== null && <LotDetails spot={filterInfo} setBookmarks={setBookmarks}/>}
+                {filterInfo !== null && <LotDetails spot={filterInfo} setBookmarks={setBookmarks} bookmarks={bookmarks}/>}
             </div>
         </div>
 
