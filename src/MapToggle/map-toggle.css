@@ -17,16 +17,17 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .map-nav-tools > a{
     text-decoration: none;
-    width: 10vw;
-    height: 10vw;
+    width: 6.5vw;
+    height: 6.5vw;
     background-color: white;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 2px 2px grey;
+    box-shadow: 2px 2px 4px grey;
     border: 1px solid grey;
 }
 .map-filters{
@@ -37,4 +38,7 @@
     bottom: 0%;
     position: fixed;
     border-radius: 10% 10% 0 0;
+}
+.chevronIcon {
+    width: 50%;
 }
