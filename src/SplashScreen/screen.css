@@ -1,0 +1,45 @@
+.text-body-intro {
+    color:#d1d1d1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.app-title-image {
+    width: 95%;
+}
+
+.pre-title-text{
+    padding-bottom: 0.9rem;
+}
+
+.pre-title-text,
+.mini-text {
+    font-size: 1.4rem;
+    color: #b0b0b0;
+}
+
+.splash {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.screen-button-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    margin-top: 45%;
+    gap: 10px;
+}
+
+.screen-button-button {
+    background-color: #d1d1d1;
+    border: 2px solid #000000;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 0.8rem;
+    padding: 10px 20px;
+    width: 200px;
+}

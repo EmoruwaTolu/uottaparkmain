@@ -1,16 +1,30 @@
 import './screen.css';
+import TitleImage from './TitleImage.png'
+
 
 function Screen() {
   return (
     <div className="splash">
         <div className='text-body-intro'>
-            <div className='mini-text'>Welcome To</div>
-            <div className='app-title'>uOttaPark</div>
+            <div className='pre-title-text'>Welcome To</div>
+            {/* <div className='app-title'>uOttaPark</div> */}
+            <img className='app-title-image' src={TitleImage} />
             <div className='mini-text'>Get it? You oughta park...</div>
         </div>
-        <div className='get-started'>
-            <button>Get Started</button>
+
+        <div className='screen-button-container'>
+            <div className='get-started'>
+                <button className='screen-button-button'>Get Started</button>
+            </div>
+            <div className='near-me'>
+                <button className='screen-button-button'>Near Me</button>
+            </div>
+            <div className='search-location'>
+                <button className='screen-button-button'>Search Location</button>
+            </div>
         </div>
+
+
     </div>
   );
 }
