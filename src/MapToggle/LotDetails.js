@@ -24,7 +24,7 @@ function LotDetails({spot, setBookmarks, bookmarks}) {
                                 <div>{spot.AVAILABLE_SPACES}</div>
                             </div>
                             <div className='price-num'>
-                                <div>Hourly Rate:</div>
+                                <div>Rate:</div>
                                 <div>{spot.HOURLY_RATE}</div>
                             </div>
                         </div>

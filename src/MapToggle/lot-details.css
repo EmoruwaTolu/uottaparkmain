@@ -45,14 +45,15 @@
 }
 
 .price-and-available > div > div {
-    margin-right: 10px; /* Add spacing between label and value */
+    margin-right: 70px; /* Add spacing between label and value */
 }
 
 .indoor-offcampus{
     display: flex;
-    width: 100%;
+    width: 75%;
     justify-content: space-between;
 }
+
 .bookmark-button{
     padding: 3vw;
     border-radius: 3em;
@@ -61,6 +62,7 @@
     justify-content: center;
     align-items: center;
     box-shadow: 3px 3px black;
+    width: 70%;
 }
 .bookmarked{
     box-shadow: none;
