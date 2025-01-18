@@ -1,3 +1,6 @@
+.home{
+    height: 100vh;
+}
 .visit-map {
     display: flex;
     flex-direction: column; 
