@@ -1,13 +1,13 @@
-import './home.css';
+import './spots.css';
 
 function Spot({name, price, available, rating}) {
 
   return (
-    <div className="spot-container">
+    <div className="bookmark-container">
         <div className='spot-img'>
 
         </div>
-        <div className='spot-details'>
+        <div className='bookmark-details'>
             <div className='location'>
                 {name}
             </div>

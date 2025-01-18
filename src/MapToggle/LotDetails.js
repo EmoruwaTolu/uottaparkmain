@@ -2,7 +2,7 @@ import './lot-details.css';
 
 import { useState } from 'react';
 
-function LotDetails({spot}) {
+function LotDetails({spot, setBookmarks}) {
     console.log(spot)
     return (
         <div className='spot-container'>
@@ -32,7 +32,10 @@ function LotDetails({spot}) {
                     </div>
                 </div>
                 <div className='bookmark-slab'>
-                    <div className='bookmark-button'>Bookmark</div>
+                    <div className='bookmark-button' onClick={() => {
+                        setBookmarks((prevBookmarks) => [...prevBookmarks, spot]); 
+                        
+                    }}>Bookmark</div>
                 </div>
             </div>
         </div>

@@ -1,5 +1,8 @@
-.spot-container{
-    height: 30vh;
-    width: 30vw;
+.bookmark-container{
+    min-height: 30vh;
+    min-width: 30vw;
     background-color: pink;
+}
+.bookmark-details{
+    background-color: red;
 }
