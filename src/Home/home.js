@@ -1,6 +1,7 @@
 import Navbar from '../Navbar/navbar';
 import { Link } from "react-router-dom";
 import ParkingMap from '../MapToggle/map';
+import './home.css'
 
 function Home() {
   return (
@@ -8,10 +9,11 @@ function Home() {
         <Navbar />
         <div>
             <div className='parking-watch-list'>
-
             </div>
             <div className='visit-map'>
-                <Link to={'/map'}>Visit Map</Link>
+                <Link to={'/map'}>
+                  <button className='visitMapButton'>Visit Map</button>
+                </Link>
             </div>
         </div>
         
