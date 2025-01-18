@@ -23,7 +23,7 @@ function LotDetails({spot, setBookmarks}) {
                                 <div>{spot.AVAILABLE_SPACES}</div>
                             </div>
                             <div className='price-num'>
-                                <div>Hourly Rate:</div>
+                                <div>Rate:</div>
                                 <div>{spot.HOURLY_RATE}</div>
                             </div>
                         </div>
@@ -33,14 +33,11 @@ function LotDetails({spot, setBookmarks}) {
                         </div>
                     </div>
                     <div className='bookmark-slab'>
-                        <div className='bookmark-button'>Bookmark</div>
-                    </div>
-                </div>
-                <div className='bookmark-slab'>
                     <div className='bookmark-button' onClick={() => {
                         setBookmarks((prevBookmarks) => [...prevBookmarks, spot]); 
                         
                     }}>Bookmark</div>
+                </div>
                 </div>
             </div>
     );
