@@ -51,6 +51,7 @@
 .location-filters{
     margin-top: 1.2rem;
     display: flex;
+    justify-content: center;
 }
 
 .pill{
@@ -64,6 +65,8 @@
 
 .price-filters {
     margin-top: 1.2rem;
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -72,10 +75,14 @@
     color: rgb(73, 88, 84);
     max-width: 100%;
     display: flex;
+    margin-top: 10px;
+    gap: 10px;
+    justify-content: center;
 }
 
 .price-controllers > input{
-    width: 4vw;
+    width: 40px;
+
 }
 
 .filter-header{
