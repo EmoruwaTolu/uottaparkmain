@@ -1,5 +1,5 @@
 import './lot-details.css';
-
+import { FaStar } from "react-icons/fa";
 import { useState } from 'react';
 
 function LotDetails({spot, setBookmarks, bookmarks}) {
@@ -11,7 +11,11 @@ function LotDetails({spot, setBookmarks, bookmarks}) {
                 <div className='img-container'></div>
                 <div className='star-rating'>
                     <div>Review:</div>
-                    <div>{spot.RATING}</div>
+                    <div>
+                        {[...Array(spot.RATING)].map((_, index) => (
+                            <FaStar key={index} color="gold" />
+                        ))}
+                    </div>
                 </div>
             </div>
             <div className='right-side'>
