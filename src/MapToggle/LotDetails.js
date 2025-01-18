@@ -34,10 +34,6 @@ function LotDetails({spot, setBookmarks, bookmarks}) {
                         </div>
                     </div>
                     <div className='bookmark-slab'>
-                        <div className='bookmark-button'>Bookmark</div>
-                    </div>
-                </div>
-                <div className='bookmark-slab'>
                     <div className={`bookmark-button ${isBookmarked ? 'bookmarked' : ''}`} onClick={() => {
                         setBookmarks((prevBookmarks) => {
                             if (isBookmarked) {
@@ -50,6 +46,7 @@ function LotDetails({spot, setBookmarks, bookmarks}) {
                         });
                         
                     }}>{isBookmarked ? 'Remove Bookmark' : 'Bookmark'}</div>
+                </div>
                 </div>
                 </div>
     );
