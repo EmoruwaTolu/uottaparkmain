@@ -48,8 +48,10 @@
 }
 .pill{
     padding: 1vw;
+    font-weight: 600;
     box-sizing: border-box;
-    background-color: white;
+    color: #1c1c1c;
+    background-color: rgb(180, 179, 230);
     border-radius: 3em;
     margin-right: 8px;
     box-shadow: 3px 3px black;

@@ -17,7 +17,7 @@ function MapToggle() {
         <div className='map-filters'>
             <div className='filter-container'>
                 <div className='location-filters'>
-                    <div className='pill'>On-Campus-</div>
+                    <div className='pill'>On-Campus</div>
                     <div className='pill'>Off-Campus</div>
                     <div className='pill'>Both</div>
                 </div>
