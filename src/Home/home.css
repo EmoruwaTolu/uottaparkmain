@@ -16,11 +16,11 @@
     border-radius: 0.8rem;
     padding: 10px 20px;
     width: 200px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-family: 'Ubuntu';
 }
 
-.buttonTextMap {
-    vertical-align:top;
+.buttonTextMap  {
+    vertical-align:super;
 }
 
 .globeIcon {

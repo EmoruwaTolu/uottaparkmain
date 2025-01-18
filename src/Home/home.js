@@ -18,7 +18,7 @@ function Home() {
             <div className='visit-map'>
                 <Link to={'/map'}>
                   <button className='visit-map-button'>
-                    <img className='globeIcon' src={EarthIcon} alt='globe'></img> <span className='buttonTextMap'> Map</span>
+                    <img className='globeIcon' src={EarthIcon} alt='globe'></img> <span className='buttonTextMap'>Map</span>
                   </button>
                 </Link>
             </div>
