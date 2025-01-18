@@ -3,8 +3,6 @@
     flex-direction: column; 
     align-items: center;
     justify-content: center;
-    margin-top: 95%;
-    gap: 10px;
 }
 
 .visit-map-button {
@@ -25,4 +23,19 @@
 
 .globeIcon {
     width: 20%;
+}
+.parking-watch-list{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    padding: 3vw;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.scroller{
+    min-width: 100%;
+    display: flex;
+    width: fit-content;
+    overflow: scroll;
+    height: fit-content;
 }

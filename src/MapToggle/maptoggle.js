@@ -6,7 +6,7 @@ import './map-toggle.css';
 import ChevronIcon from './chevron-back-outline.svg';
 import { useState } from 'react';
 
-function MapToggle() {
+function MapToggle({bookmarks, setBookmarks}) {
 
     const [filterInfo, setFilterInfo] = useState(null);
     console.log(filterInfo)
@@ -21,7 +21,7 @@ function MapToggle() {
             <ParkingMap setSpot={setFilterInfo} spot={filterInfo}/>   
             <div className='map-filters'>
                 {filterInfo === null && <Filter />}
-                {filterInfo !== null && <LotDetails spot={filterInfo}/>}
+                {filterInfo !== null && <LotDetails spot={filterInfo} setBookmarks={setBookmarks}/>}
             </div>
         </div>
 
