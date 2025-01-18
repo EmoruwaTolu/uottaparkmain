@@ -1,7 +1,8 @@
 import Navbar from '../Navbar/navbar';
 import { Link } from "react-router-dom";
 import ParkingMap from '../MapToggle/map';
-import './home.css'
+import './home.css';
+import EarthIcon from './earth-outline.svg';
 
 function Home() {
   return (
@@ -9,10 +10,13 @@ function Home() {
         <Navbar />
         <div>
             <div className='parking-watch-list'>
+
             </div>
             <div className='visit-map'>
                 <Link to={'/map'}>
-                  <button className='visitMapButton'>Visit Map</button>
+                  <button className='visit-map-button'>
+                    <img className='globeIcon' src={EarthIcon} alt='globe'></img> <span className='buttonTextMap'> Map</span>
+                  </button>
                 </Link>
             </div>
         </div>
