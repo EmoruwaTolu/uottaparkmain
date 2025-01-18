@@ -32,25 +32,23 @@ function LotDetails({spot, setBookmarks, bookmarks}) {
                             <div className='indoor-outdoor'>{spot.CATEGORY}</div>
                             <div className='offcampus'>{spot.LOCATION}</div>
                         </div>
-                    </div>
-                    <div className='bookmark-slab'>
-                        <div className='bookmark-button'>Bookmark</div>
+                        <div className='bookmark-slab'>
+                        <div className={`bookmark-button ${isBookmarked ? 'bookmarked' : ''}`} onClick={() => {
+                                setBookmarks((prevBookmarks) => {
+                                    if (isBookmarked) {
+                                    return prevBookmarks.filter(
+                                        (bookmark) => bookmark.ADDRESS !== spot.ADDRESS
+                                    );
+                                    } else {
+                                    return [...prevBookmarks, spot];
+                                    }
+                                });
+                                
+                            }}>{isBookmarked ? 'Remove Bookmark' : 'Bookmark'}</div>
+                        </div>
                     </div>
                 </div>
-                <div className='bookmark-slab'>
-                    <div className={`bookmark-button ${isBookmarked ? 'bookmarked' : ''}`} onClick={() => {
-                        setBookmarks((prevBookmarks) => {
-                            if (isBookmarked) {
-                              return prevBookmarks.filter(
-                                (bookmark) => bookmark.ADDRESS !== spot.ADDRESS
-                              );
-                            } else {
-                              return [...prevBookmarks, spot];
-                            }
-                        });
-                        
-                    }}>{isBookmarked ? 'Remove Bookmark' : 'Bookmark'}</div>
-                </div>
+                
             </div>
     );
 }
