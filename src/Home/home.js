@@ -14,6 +14,7 @@ function Home({bookmarks, setBookmarks}) {
     <div className="home">
         <Navbar />
         <div>
+          <h2 className='bookmarkTitle'>Bookmarked Parking Spots</h2>
             <div className='parking-watch-list'>
               <div className='scroller'>
                 {bookmarks.map((spot, index) => (
