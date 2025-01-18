@@ -6,7 +6,7 @@ function LotDetails({spot, setBookmarks, bookmarks}) {
 
     const isBookmarked = bookmarks.some((bookmark) => bookmark.ADDRESS === spot.ADDRESS);
     return (
-        <div className='spot2-container'>
+        <div className='spot-container'>
             <div className='left-side'>
                 <div className='img-container'></div>
                 <div className='star-rating'>
