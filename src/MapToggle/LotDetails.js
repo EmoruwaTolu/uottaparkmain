@@ -2,8 +2,9 @@ import './lot-details.css';
 
 import { useState } from 'react';
 
-function LotDetails({spot, setBookmarks}) {
-    console.log(spot)
+function LotDetails({spot, setBookmarks, bookmarks}) {
+
+    const isBookmarked = bookmarks.some((bookmark) => bookmark.ADDRESS === spot.ADDRESS);
     return (
         <div className='spot-container'>
             <div className='left-side'>
@@ -32,10 +33,18 @@ function LotDetails({spot, setBookmarks}) {
                     </div>
                 </div>
                 <div className='bookmark-slab'>
-                    <div className='bookmark-button' onClick={() => {
-                        setBookmarks((prevBookmarks) => [...prevBookmarks, spot]); 
+                    <div className={`bookmark-button ${isBookmarked ? 'bookmarked' : ''}`} onClick={() => {
+                        setBookmarks((prevBookmarks) => {
+                            if (isBookmarked) {
+                              return prevBookmarks.filter(
+                                (bookmark) => bookmark.ADDRESS !== spot.ADDRESS
+                              );
+                            } else {
+                              return [...prevBookmarks, spot];
+                            }
+                        });
                         
-                    }}>Bookmark</div>
+                    }}>{isBookmarked ? 'Remove Bookmark' : 'Bookmark'}</div>
                 </div>
             </div>
         </div>
