@@ -1,6 +1,7 @@
 import './screen.css';
 import TitleImage from './TitleImage.png'
 
+import { Link } from "react-router-dom";
 
 function Screen() {
   return (
@@ -22,6 +23,8 @@ function Screen() {
             <div className='search-location'>
                 <button className='screen-button-button'>Search Location</button>
             </div>
+        <div className='get-started'>
+            <Link to={'/home'}>Get Started</Link>
         </div>
 
 

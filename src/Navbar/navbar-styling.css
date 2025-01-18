@@ -1,0 +1,121 @@
+.navbar{
+    height: 8vh;
+    background-color: #326491;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+    box-shadow: 3px 3px #14283a;
+    z-index: 99;
+    width: 100vw;
+    box-sizing: border-box;
+}
+.navbar-logo{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.navbar-logo > a > img{
+    height: 5vh;
+    width: auto;
+}
+.navbar-links{
+    list-style: none;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+.navbar-links > button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: 'Intervogue Soft';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 4vh;
+    width: 4vh;
+    padding: 0;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out; 
+}
+.navbar-links > button:hover{
+    cursor: pointer;
+    background-color: #14283a;
+}
+.navbar-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-link a{
+    text-decoration: none;
+    color: white;
+}
+.dropdown-menu {
+    display: none;  /* Initially hidden */
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    background-color: #326491;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    transition: all 0.3s ease-in-out; 
+    opacity: 0; 
+    transform: translateY(-10px);
+    z-index: 99;
+}
+
+.dropdown-menu.active {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+    z-index: 99;
+}
+
+.dropdown-menu li {
+    padding: 1rem;
+    z-index: 99;
+}
+
+.dropdown-button {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+/* Adjust font size for large screens */
+@media only screen and (min-width: 1600px) {
+    .navbar-link{
+        font-size: 1.4em;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .navbar-link{
+        font-size: 1.2em;
+    }
+}
+
+/* Adjustments for smaller screen sizes */
+@media (max-width: 500px) {
+    .navbar-links {
+      display: none; /* Hide the regular links */
+    }
+  
+    .dropdown-button {
+      display: block; /* Show the hamburger menu button */
+    }
+
+    .dropdown-menu.active {
+      display: block; /* Show the dropdown when active */
+      z-index: 99;
+    }
+}
