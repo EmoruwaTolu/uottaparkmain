@@ -2,14 +2,18 @@ import Navbar from '../Navbar/navbar';
 import { Link } from "react-router-dom";
 import './home.css';
 import EarthIcon from './earth-outline.svg';
+import { useState } from 'react';
 
 function Home() {
+
+  const [savedSpots, setSavedSpots] = useState([]);
+
   return (
     <div className="home">
         <Navbar />
         <div>
             <div className='parking-watch-list'>
-
+              
             </div>
             <div className='visit-map'>
                 <Link to={'/map'}>
