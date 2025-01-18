@@ -79,7 +79,7 @@
 }
 
 .filter-header{
-color: #faedcd;
+    color: rgb(73, 88, 84);
     border-radius: 8px;
     font-weight: 800;
     text-decoration: underline;
