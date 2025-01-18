@@ -12,8 +12,6 @@ function Navbar() {
     };
     const links = [
         { name: 'Parking Map', url: '/map' },
-        { name: 'Blog', url: '/blog' },
-        { name: 'About', url: '/about' },
     ];
     
     return (
