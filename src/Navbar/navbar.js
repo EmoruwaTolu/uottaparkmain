@@ -14,7 +14,7 @@ function Navbar() {
         { name: 'Events', url: '/events' },
         { name: 'Blog', url: '/blog' },
         { name: 'Volunteer', url: '/volunteer' },
-        { name: 'Minutes', url: '/minutes' },
+        { name: 'Manly men who are naked'},
         { name: 'About', url: '/about' },
     ];
     
