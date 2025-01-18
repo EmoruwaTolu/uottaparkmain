@@ -35,10 +35,16 @@
     box-sizing: border-box;
     overflow: hidden;
 }
+
 .scroller{
     min-width: 100%;
     display: flex;
     width: fit-content;
     overflow: scroll;
     height: fit-content;
+    gap: 5px;
+}
+
+#parkingSign {
+    margin-top: 4px;
 }

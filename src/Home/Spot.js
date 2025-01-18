@@ -1,4 +1,7 @@
 import './spots.css';
+import { IoIosPricetag } from "react-icons/io";
+import { LuCircleParking } from "react-icons/lu";
+
 
 function Spot({name, price, available, rating}) {
 
@@ -13,10 +16,10 @@ function Spot({name, price, available, rating}) {
             </div>
             <div className='spot-minor'>
                 <div className='spot-price'>
-                    {price}
+                <IoIosPricetag id='priceTag'></IoIosPricetag>: {price}
                 </div>
                 <div className='spot-available'>
-                    {available}
+                <LuCircleParking id='parkingSign'></LuCircleParking>: {available}
                 </div>
                 <div className='spot-rating'>
                     {rating}
