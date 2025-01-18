@@ -5,10 +5,9 @@
 }
 
 .bookmark-details{
-    background-color: lightseagreen;
+    background-color: #A7ABDD;
 }
 
 .bookmark-details .location {
     font-weight: 750;
-    text-decoration: underline;
 }
