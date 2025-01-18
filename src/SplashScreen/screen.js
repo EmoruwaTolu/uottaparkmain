@@ -1,4 +1,5 @@
 import './screen.css';
+import { Link } from "react-router-dom";
 
 function Screen() {
   return (
@@ -9,7 +10,7 @@ function Screen() {
             <div className='mini-text'>Get it? You oughta park...</div>
         </div>
         <div className='get-started'>
-            <button>Get Started</button>
+            <Link to={'/home'}>Get Started</Link>
         </div>
     </div>
   );
