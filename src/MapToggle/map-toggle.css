@@ -56,3 +56,11 @@
     margin-right: 8px;
     box-shadow: 3px 3px black;
 }
+.price-controllers{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+}
+.price-controllers > input{
+    width: 4vw;
+}

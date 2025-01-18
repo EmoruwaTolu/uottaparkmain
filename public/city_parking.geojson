@@ -1,0 +1,447 @@
+{
+    "type": "FeatureCollection",
+    "name": "City_Parking_Lots",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 1,
+                "LOT": 5,
+                "ADDRESS": "141 Clarence St.",
+                "SPACES": 459,
+                "AVAILABLE_SPACES": 300,
+                "TYPE": "Enclosed",
+                "HEIGHTRESTRICTION": "2.0 m max",
+                "ADDRESS_FR": "141 rue Clarence",
+                "PERMIT": "Monthly parking",
+                "PERMIT_FR": "Stationnement mensuel",
+                "TYPE_FR": "Parc de stationnement couverts (garage)",
+                "GIS_UNIQUE_ID": null,
+                "GLOBALID": "{8CFB0BA0-8EEE-4DA6-9AAB-3F0A780D3D5E}",
+                "CREATED_DATE": null,
+                "LAST_EDITED_DATE": "2023-05-17T13:13:00Z",
+                "RATING": 4,
+                "CATEGORY": "Indoor",
+                "MAX_HOURS": 24,
+                "HOURLY_RATE": "$3.00",
+                "LOCATION": "Off Campus"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-75.691341469099967, 45.430209427644073]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 2,
+                "LOT": 10,
+                "ADDRESS": "574 Bank St.",
+                "SPACES": 19,
+                "AVAILABLE_SPACES": 0,
+                "TYPE": "Surface",
+                "HEIGHTRESTRICTION": "NA",
+                "ADDRESS_FR": "574 rue Bank",
+                "PERMIT": "Monthly parking - None available, waiting list closed",
+                "PERMIT_FR": "Stationnement mensuel - Aucune place disponible même sur la liste d’attente",
+                "TYPE_FR": "Parc de stationnement en surface",
+                "GIS_UNIQUE_ID": null,
+                "GLOBALID": "{3E412A80-F98A-444E-ABFE-2E5AF811DC6E}",
+                "CREATED_DATE": null,
+                "LAST_EDITED_DATE": "2018-02-14T07:32:23Z",
+                "RATING": 2,
+                "CATEGORY": "Outdoor",
+                "MAX_HOURS": 2,
+                "HOURLY_RATE": "$2.50",
+                "LOCATION": "Off Campus"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-75.691614374588326, 45.40807304436364]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 3,
+                "LOT": 14,
+                "ADDRESS": "301 Preston St.",
+                "SPACES": 60,
+                "AVAILABLE_SPACES": 30,
+                "TYPE": "Surface",
+                "HEIGHTRESTRICTION": "NA",
+                "ADDRESS_FR": "301 rue Preston",
+                "PERMIT": "Monthly parking - None available, waiting list closed",
+                "PERMIT_FR": "Stationnement mensuel - Aucune place disponible même sur la liste d’attente",
+                "TYPE_FR": "Parc de stationnement en surface",
+                "GIS_UNIQUE_ID": null,
+                "GLOBALID": "{3219C272-EA03-49EE-9AA9-3E790F56E63A}",
+                "CREATED_DATE": null,
+                "LAST_EDITED_DATE": "2023-03-01T12:47:07Z",
+                "RATING": 3,
+                "CATEGORY": "Outdoor",
+                "MAX_HOURS": 4,
+                "HOURLY_RATE": "$1.75",
+                "LOCATION": "Off Campus"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-75.710670466966093, 45.403497033529185]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 4,
+                "LOT": 3,
+                "ADDRESS": "210 Gloucester St.",
+                "SPACES": 212,
+                "AVAILABLE_SPACES": 150,
+                "TYPE": "Enclosed",
+                "HEIGHTRESTRICTION": "2.0 m max",
+                "ADDRESS_FR": "210 rue Gloucester",
+                "PERMIT": "Monthly parking",
+                "PERMIT_FR": "Stationnement mensuel",
+                "TYPE_FR": "Parc de stationnement couverts (garage)",
+                "GIS_UNIQUE_ID": null,
+                "GLOBALID": "{EFCC221E-CE35-4F2B-A92A-AF04EA958649}",
+                "CREATED_DATE": null,
+                "LAST_EDITED_DATE": "2023-03-01T12:36:21Z",
+                "RATING": 4,
+                "CATEGORY": "Indoor",
+                "MAX_HOURS": 24,
+                "HOURLY_RATE": "$2.75",
+                "LOCATION": "Off Campus"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-75.698986179778544, 45.417335531279669]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 5,
+                "LOT": 4,
+                "ADDRESS": "70 Clarence St.",
+                "SPACES": 289,
+                "AVAILABLE_SPACES": 200,
+                "TYPE": "Enclosed",
+                "HEIGHTRESTRICTION": "2.2 m max",
+                "ADDRESS_FR": "70 rue Clarence",
+                "PERMIT": "Monthly parking",
+                "PERMIT_FR": "Stationnement mensuel",
+                "TYPE_FR": "Parc de stationnement couverts (garage)",
+                "GIS_UNIQUE_ID": null,
+                "GLOBALID": "{0F7D1B0B-AA3D-4DA3-AD11-605430E7BA40}",
+                "CREATED_DATE": null,
+                "LAST_EDITED_DATE": "2023-03-01T12:42:13Z",
+                "RATING": 4,
+                "CATEGORY": "Indoor",
+                "MAX_HOURS": 8,
+                "HOURLY_RATE": "$3.25",
+                "LOCATION": "Off Campus"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-75.693117897455792, 45.428607110598072]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 6,
+                "LOT": 6,
+                "ADDRESS": "110 Laurier Ave.",
+                "SPACES": 845,
+                "AVAILABLE_SPACES": 700,
+                "TYPE": "Enclosed",
+                "HEIGHTRESTRICTION": "2.16 m max",
+                "ADDRESS_FR": "110 avenue Laurier Ouest",
+                "PERMIT": "Monthly parking",
+                "PERMIT_FR": "Stationnement mensuel",
+                "TYPE_FR": "Parc de stationnement couverts (garage)",
+                "GIS_UNIQUE_ID": null,
+                "GLOBALID": "{2DA45FE9-7AE1-45CA-8E1D-596C0777EC26}",
+                "CREATED_DATE": null,
+                "LAST_EDITED_DATE": "2023-03-01T12:46:38Z",
+                "RATING": 5,
+                "CATEGORY": "Indoor",
+                "MAX_HOURS": 24,
+                "HOURLY_RATE": "$4.00",
+                "LOCATION": "Off Campus"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-75.689793776968315, 45.420797970070424]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 13,
+                "LOT": 18,
+                "ADDRESS": "422 Slater St.",
+                "SPACES": 10,
+                "AVAILABLE_SPACES": 3,
+                "TYPE": "Enclosed",
+                "HEIGHTRESTRICTION": "2.2 m max",
+                "ADDRESS_FR": "422 rue Slater",
+                "PERMIT": "Monthly parking – not provided",
+                "PERMIT_FR": "Stationnement mensuel - Non disponible",
+                "TYPE_FR": "Parc de stationnement couverts (garage)",
+                "GIS_UNIQUE_ID": null,
+                "GLOBALID": "{BDF73E8F-96E5-42C7-849F-3779C437E0B8}",
+                "CREATED_DATE": null,
+                "LAST_EDITED_DATE": null,
+                "RATING": 2,
+                "CATEGORY": "Indoor",
+                "MAX_HOURS": 6,
+                "HOURLY_RATE": "$3.50",
+                "LOCATION": "Off Campus"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-75.705775378997956, 45.416480403018312]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 14,
+                "LOT": 23,
+                "ADDRESS": "2950 Riverside Dr.",
+                "SPACES": 186,
+                "AVAILABLE_SPACES": 120,
+                "TYPE": "Surface",
+                "HEIGHTRESTRICTION": "NA",
+                "ADDRESS_FR": "2950 promenade Riverside",
+                "PERMIT": "Seasonal Parking – May to Sept",
+                "PERMIT_FR": "Stationnement saisonnier – de mai à septembre",
+                "TYPE_FR": "Parc de stationnement en surface",
+                "GIS_UNIQUE_ID": null,
+                "GLOBALID": "{694957DE-D472-4C81-B838-2A6619041237}",
+                "CREATED_DATE": null,
+                "LAST_EDITED_DATE": null,
+                "RATING": 4,
+                "CATEGORY": "Outdoor",
+                "MAX_HOURS": 24,
+                "HOURLY_RATE": "$2.50",
+                "LOCATION": "Off Campus"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-75.691345489959176, 45.36760666113468]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 15,
+                "LOT": 30,
+                "ADDRESS": "795 Tweddle Rd.",
+                "SPACES": 274,
+                "AVAILABLE_SPACES": 180,
+                "TYPE": "Surface",
+                "HEIGHTRESTRICTION": "NA",
+                "ADDRESS_FR": "795 chemin Tweddle",
+                "PERMIT": "Seasonal Parking – May to Sept",
+                "PERMIT_FR": "Stationnement saisonnier – de mai à septembre",
+                "TYPE_FR": "Parc de stationnement en surface",
+                "GIS_UNIQUE_ID": null,
+                "GLOBALID": "{DC093C05-F32E-4CE0-9C15-3960CAA47791}",
+                "CREATED_DATE": null,
+                "LAST_EDITED_DATE": "2024-06-20T07:50:21Z",
+                "RATING": 3,
+                "CATEGORY": "Outdoor",
+                "MAX_HOURS": 8,
+                "HOURLY_RATE": "$1.50",
+                "LOCATION": "Off Campus"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-75.490323892208991, 45.504963978595441]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 7,
+                "LOT": 8,
+                "ADDRESS": "170 Second Ave.",
+                "SPACES": 144,
+                "AVAILABLE_SPACES": 120,
+                "TYPE": "Enclosed",
+                "HEIGHTRESTRICTION": "2.4 m max",
+                "ADDRESS_FR": "170 avenue Second",
+                "PERMIT": "Monthly parking - None available, waiting list closed",
+                "PERMIT_FR": "Stationnement mensuel - Aucune place disponible même sur la liste d’attente",
+                "TYPE_FR": "Parc de stationnement couverts (garage)",
+                "GIS_UNIQUE_ID": null,
+                "GLOBALID": "{00B08830-5609-4523-B9C0-BD83ECFFA8D7}",
+                "CREATED_DATE": null,
+                "LAST_EDITED_DATE": "2023-03-01T12:46:52Z",
+                "RATING": 3,
+                "CATEGORY": "Indoor",
+                "MAX_HOURS": 8,
+                "HOURLY_RATE": "$2.50",
+                "LOCATION": "Off Campus"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-75.689219616957843, 45.403100883974538]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 8,
+                "LOT": 9,
+                "ADDRESS": "234-250 Slater St.",
+                "SPACES": 62,
+                "AVAILABLE_SPACES": 50,
+                "TYPE": "Surface",
+                "HEIGHTRESTRICTION": "NA",
+                "ADDRESS_FR": "234-250 rue Slater",
+                "PERMIT": "Monthly parking – not provided",
+                "PERMIT_FR": "Stationnement mensuel - Non disponible",
+                "TYPE_FR": "Parc de stationnement en surface",
+                "GIS_UNIQUE_ID": null,
+                "GLOBALID": "{5BAA1C8E-EB26-40FD-B778-0BEA994A05DD}",
+                "CREATED_DATE": null,
+                "LAST_EDITED_DATE": "2023-03-01T12:43:38Z",
+                "RATING": 2,
+                "CATEGORY": "Outdoor",
+                "MAX_HOURS": 4,
+                "HOURLY_RATE": "$1.75",
+                "LOCATION": "Off Campus"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-75.700074629780758, 45.418867477376708]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 9,
+                "LOT": 11,
+                "ADDRESS": "687 Somerset St. W",
+                "SPACES": 46,
+                "AVAILABLE_SPACES": 30,
+                "TYPE": "Surface",
+                "HEIGHTRESTRICTION": "NA",
+                "ADDRESS_FR": "687 rue Somerset Ouest",
+                "PERMIT": "Monthly parking – not provided",
+                "PERMIT_FR": "Stationnement mensuel - Non disponible",
+                "TYPE_FR": "Parc de stationnement en surface",
+                "GIS_UNIQUE_ID": null,
+                "GLOBALID": "{9ADD8B1D-59CA-404C-9E2D-692667BA9F16}",
+                "CREATED_DATE": null,
+                "LAST_EDITED_DATE": "2023-01-24T09:08:03Z",
+                "RATING": 2,
+                "CATEGORY": "Outdoor",
+                "MAX_HOURS": 2,
+                "HOURLY_RATE": "$1.50",
+                "LOCATION": "Off Campus"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-75.706518434858268, 45.411470511972404]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 10,
+                "LOT": 13,
+                "ADDRESS": "366 Parkdale Ave.",
+                "SPACES": 20,
+                "AVAILABLE_SPACES": 15,
+                "TYPE": "Surface",
+                "HEIGHTRESTRICTION": "NA",
+                "ADDRESS_FR": "366 avenue Parkdale",
+                "PERMIT": "Monthly parking – winter only between Nov 1 to Apr 30",
+                "PERMIT_FR": "Stationnement mensuel – en hiver seulement du 1er novembre au 30 avril",
+                "TYPE_FR": "Parc de stationnement en surface",
+                "GIS_UNIQUE_ID": null,
+                "GLOBALID": "{4E3BEC35-7D8F-48CD-A251-65F962DDFE30}",
+                "CREATED_DATE": null,
+                "LAST_EDITED_DATE": null,
+                "RATING": 3,
+                "CATEGORY": "Outdoor",
+                "MAX_HOURS": 12,
+                "HOURLY_RATE": "$2.00",
+                "LOCATION": "Off Campus"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-75.729864543266402, 45.401398422140154]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 11,
+                "LOT": 20,
+                "ADDRESS": "400 North River Rd.",
+                "SPACES": 78,
+                "AVAILABLE_SPACES": 50,
+                "TYPE": "Surface",
+                "HEIGHTRESTRICTION": "NA",
+                "ADDRESS_FR": "400 chemin North River",
+                "PERMIT": "Monthly parking - None available, waiting list closed",
+                "PERMIT_FR": "Stationnement mensuel - Aucune place disponible même sur la liste d’attente",
+                "TYPE_FR": "Parc de stationnement en surface",
+                "GIS_UNIQUE_ID": null,
+                "GLOBALID": "{022119B6-88AD-4E96-9C0A-2FB30AAA1592}",
+                "CREATED_DATE": null,
+                "LAST_EDITED_DATE": "2023-03-01T12:47:17Z",
+                "RATING": 3,
+                "CATEGORY": "Outdoor",
+                "MAX_HOURS": 8,
+                "HOURLY_RATE": "$2.25",
+                "LOCATION": "Off Campus"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-75.669566474597872, 45.430905779352884]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 12,
+                "LOT": 22,
+                "ADDRESS": "283 Cyr Ave.",
+                "SPACES": 25,
+                "AVAILABLE_SPACES": 18,
+                "TYPE": "Surface",
+                "HEIGHTRESTRICTION": "NA",
+                "ADDRESS_FR": "283 avenue Cyr",
+                "PERMIT": "Monthly parking",
+                "PERMIT_FR": "Stationnement mensuel",
+                "TYPE_FR": "Parc de stationnement en surface",
+                "GIS_UNIQUE_ID": null,
+                "GLOBALID": "{D504805D-1C8D-440D-8B35-E3F24D526EC1}",
+                "CREATED_DATE": null,
+                "LAST_EDITED_DATE": "2023-01-24T09:05:06Z",
+                "RATING": 3,
+                "CATEGORY": "Outdoor",
+                "MAX_HOURS": 10,
+                "HOURLY_RATE": "$2.00",
+                "LOCATION": "Off Campus"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-75.663342722628997, 45.434974782978799]
+            }
+        }
+    ]
+}

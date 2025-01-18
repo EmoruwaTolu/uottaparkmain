@@ -21,7 +21,7 @@ function ParkingMap() {
 
     // Load GeoJSON data
     useEffect(() => {
-      fetch('/City_Parking_Lots.geojson') // Adjust the path if necessary
+      fetch('/city_parking.geojson') // Adjust the path if necessary
         .then((response) => response.json())
         .then((data) => setGeojsonData(data))
         .catch((error) => console.error('Error fetching GeoJSON:', error));
@@ -52,7 +52,7 @@ function ParkingMap() {
             data: geojsonData.features, // Use features directly
             pickable: false,
             getPosition: (d) => d.geometry.coordinates, // Label position
-            getText: (d) => `${d.properties.SPACES}`, // Text to display
+            getText: (d) => `${d.properties.AVAILABLE_SPACES}`, // Text to display
             getSize: () => 10, // Min 10, Max 30
             getColor: [255, 255, 255], // White text
             getTextAnchor: 'middle',
@@ -75,7 +75,7 @@ function ParkingMap() {
             getColor: [255, 140, 0], // Orange color for icons
             onClick: (info) => {
               if (info.object) {
-                console.log(`Clicked on: ${info.object.properties.ADDRESS}`);
+                console.log(info.object.properties);
               }
             },
             // Add a tooltip with the number of spaces
