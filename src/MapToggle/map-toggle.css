@@ -37,4 +37,20 @@
     bottom: 0%;
     position: fixed;
     border-radius: 10% 10% 0 0;
+    padding: 5vw;
+    box-sizing: border-box;
+}
+.filter-container{
+    width: 100%;
+}
+.location-filters{
+    display: flex;
+}
+.pill{
+    padding: 1vw;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 3em;
+    margin-right: 8px;
+    box-shadow: 3px 3px black;
 }
