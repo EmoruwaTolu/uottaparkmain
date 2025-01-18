@@ -1,6 +1,6 @@
 .navbar{
     height: 8vh;
-    background-color: #326491;
+    background-color: #2d2a58fa;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,6 +14,7 @@
     flex: 1;
     display: flex;
     align-items: center;
+    padding-top: 1rem;
 }
 .navbar-logo > a > img{
     height: 5vh;

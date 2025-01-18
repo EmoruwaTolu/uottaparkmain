@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { Link } from "react-router-dom";
 import './navbar-styling.css';
+import TitleImage from "../SplashScreen/TitleImage.png";
 
 function Navbar() {
 
@@ -20,7 +21,9 @@ function Navbar() {
     return (
         <div className='navbar'>
             <div className='navbar-logo'>
-                <Link to='/'>Home</Link>
+                <Link to='/'>
+                    <img src={TitleImage}/>
+                </Link>
             </div>
             <ul className={showDropdown ? 'navbar-links dropdown-menu active' : 'navbar-links'}>
                 {links.map((link, index) => (
