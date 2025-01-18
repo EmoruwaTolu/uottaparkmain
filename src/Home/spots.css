@@ -1,8 +1,14 @@
 .bookmark-container{
     min-height: 30vh;
     min-width: 30vw;
-    background-color: pink;
+    background-color: #CCD5AE;
 }
+
 .bookmark-details{
-    background-color: red;
+    background-color: lightseagreen;
+}
+
+.bookmark-details .location {
+    font-weight: 750;
+    text-decoration: underline;
 }
