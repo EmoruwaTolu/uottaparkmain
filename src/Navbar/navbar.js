@@ -11,10 +11,8 @@ function Navbar() {
         setShowDropdown(!showDropdown);
     };
     const links = [
-        { name: 'Events', url: '/events' },
+        { name: 'Parking Map', url: '/map' },
         { name: 'Blog', url: '/blog' },
-        { name: 'Volunteer', url: '/volunteer' },
-        { name: 'Manly men who are naked'},
         { name: 'About', url: '/about' },
     ];
     

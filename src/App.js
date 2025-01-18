@@ -9,7 +9,6 @@ import { useState } from 'react';
 function App() {
 
   const [bookmarks, setBookmarks] = useState([]);
-  console.log(bookmarks)
 
   return (
     <Router>
